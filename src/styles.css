@@ -1,0 +1,25 @@
+.tabs-container {
+  display: flex;
+}
+
+.tab-heading {
+  padding: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: skyblue;
+}
+
+.selected-tab {
+  border-bottom: 0;
+}
+
+.tab-body {
+  display: flex;
+  height: 300px;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.error {
+  color: red;
+}
